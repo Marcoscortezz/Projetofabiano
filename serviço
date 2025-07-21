@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mercedes-Benz - Serviços</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #1e1e1e;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.05);
+        }
+
+        .content h2 {
+            margin-bottom: 20px;
+            font-size: 26px;
+            color: #ccc;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #ccc;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 6px;
+            background-color: #2a2a2a;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #444;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #666;
+        }
+
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #aaa;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mercedes-Benz</h1>
+    </header>
+
+    <nav>
+        <a href="inicio.html">Início</a>
+        <a href="modelo.html">Modelos</a>
+        <a href="marca.html">A Marca</a>
+    </nav>
+
+    <div class="content">
+        <h2>Agende um Serviço</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="servico">Tipo de Serviço:</label>
+            <select id="servico" name="servico" required>
+                <option value="">Selecione...</option>
+                <option value="revisao">Revisão</option>
+                <option value="troca_oleo">Troca de Óleo</option>
+                <option value="freios">Verificação de Freios</option>
+                <option value="diagnostico">Diagnóstico Completo</option>
+            </select>
+
+            <label for="data">Data do Agendamento:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="mensagem">Observações:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva qualquer detalhe adicional..."></textarea>
+
+            <input type="submit" value="Agendar Serviço">
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2025 Mercedes-Benz Brasil. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
