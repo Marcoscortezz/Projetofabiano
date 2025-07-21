@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mercedes-Benz</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #000000;
+        }
+
+        .cabeca {
+            padding: 20px;
+            background-color: #000;
+            color: white;
+            text-align: center;
+        }
+
+        .cabeca img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        
+          .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #111;
+            gap: 40px;
+            padding: 15px 0;
+        }
+
+        .menu-itens {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .menu-itens:hover {
+            color: #a50e0e;
+            text-decoration: underline;
+        }
+
+        .corpo {
+            background-color: #2e2d2d;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 1200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .corpo > h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #111;
+        }
+
+        .modelos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px;
+            justify-content: center;
+        }
+
+        .modelo {
+            background-color: rgb(73, 71, 71);
+            border-radius: 50px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(253, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s;
+         
+        }
+
+        .modelo:hover {
+            transform: scale(1.03);
+            
+        }
+
+        .modelo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .modelo figcaption {
+            padding: 15px;
+            font-size: 16px;
+            color: #111;
+
+        }
+     
+        a{
+            color: #b60808;
+        }
+  
+   
+    </style>
+</head>
+<body>
+
+    <div class="cabeca">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sQnA2_jrHL_RunZWN9Axx8LM4s2pjcLsqA&s" alt="Logotipo Mercedes-Benz">
+    </div>
+        <div class="menu"> 
+        <div class="menu-itens"><a href="inicio.html">inicio</a></div>
+
+        <div class="menu-itens"><a href="serviço.html">Serviço</a></div>
+
+        <div class="menu-itens"><a href="marca.html">marca</a></div>
+        
+
+    </div>
+</div>
+    <div class="corpo">
+        <h2>Modelos Mercedes-Benz</h2>
+        <div class="modelos">
+
+            <div class="modelo">
+                <figure>
+                    <img src="https://media.oneweb.mercedes-benz.com/images/dynamic/europe/BR/206046/805_055/iris.png?q=COSY-EU-100-1713d0VXq0SFqtyO67PobzIr3eWsrrCsdRRzwQZ6ZHZbMw3SGtGyjtsd2HtcUfp8qXGEubmJ0l3ItOB2NQnbApjdCI5uVcZQC3qkWkzNRL6m7jZ6qhKVFKF%25vq9vjyLRDG6YaxW0ErH1dItn8wv8noiZL6ZM4FaRFTg90Q26PDBkbSeWAe2tsd5vDcUfCXkXGEzJwJ0lLoqOB2aScbApHtxI5u8KZQC3UMFkzNGzwm7j023hKVBbh%25vqAyTyLR5YmYaxCrJrH1zgtn8w7PwoiZKegM4FvsjTg9Ukm6tTuweSc60g2tsdHZdcUfarRXGEsaYJ0lU4hOB2GM1bApFUMI5uC4JQC3zg7kzN7P6m7jKGjhKVvYW%25vqL8dyL0fsjko9wdYfHVyJ1XRcYxqN8NmDmA9KLBZ59U2G1oQsvt&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=610&crop=" alt="Classe C Sedan">
+                    <figcaption>
+                        <strong>
+                                Classe C Sedan</strong><br>
+                         Versões a partir de:<br>
+                        <strong>  R$ 384.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="modelo">
+                <figure>
+                    <img src="https://assets.oneweb.mercedes-benz.com/iris/iris.png?COSY-EU-100-1713d0VXq0YFqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtlaStsd2HVcUfpOkXGEubSJ0l3IrOB2NS1bApj7pI5uVKMQC31MTkzNwPnm7jZGohKV5Kh%25vqCrqyLRz3RYaxPXWrH1eJtn8ws8RoiZUidM4FGTJTg906V6PDBmbSeWAQWtsd7oTcUfKmfXGE4yEJ0lg0VOB2PWEbApetlI5usQYQC3UkOkzNGm6m7j0aohKVBHE%25vq8cXyr%25kWfDYQJ0lCrnOIJRdAbQO70tI5ug6FQC3AgTkzNWHgm7jKeIhKVvsW%25vqLUayL0fsjko9wdYfHreHt9RcYxqN88Zlo21Ix2rbpldCdcqcgVGB4NPVHF82mx2=&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=880&crop=" alt="EQE Sedan">
+                    <figcaption>
+                        <strong> EQE Sedan</strong><br>
+                         Versões a partir de:<br>
+                        <strong>  R$ 649.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="modelo">
+                <figure>
+                    <img src="https://media.oneweb.mercedes-benz.com/images/dynamic/europe/BR/214046/805_055/iris.png?q=COSY-EU-100-1713d0VXqrWFqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtGyjtsd1v9cUfpUyXGEuiXJ0l3DAOB2NS1bApj7bI5uVKuQC31grkzNwP9m7jA6ohKV5Kh%25vqCrqyLRz3RYaxPXSrH1eHDn8wszxoiZr7YM4FnRjTg95zp6PDakNSeWHeutsd8Z3cUfiFWXGE4JYJ0lgChOB2znobQOxf5IkbKBoQC3PgwkzN5Pbm7jCemhKVf5s%25vqLvkyLRaGXYaxH5xrH18Mln8520R%256d9lo24YaIFbwOoZ1qgqyfyzda8CD7dB3AF6h0HJ&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=880&crop=" alt="Classe E Sedan">
+                    <figcaption>
+                        <strong> 
+                                Classe E Sedan</strong><br>
+                         Versões a partir de:<br>
+                        <strong>  R$ 914.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="modelo">
+                <figure>
+                    <img src="https://media.oneweb.mercedes-benz.com/images/dynamic/europe/BR/254347/805_055/iris.png?q=COSY-EU-100-1713d0VXqaSFqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtGyjtsd1JpcUfwFuXGEZT3J0l34JOB2Ng1bApjkyI5uVmJQC3qhQkzNRtbm7jx2vhKV1bW%25vqwylyLRZimYaxF4JrH1dJZn8wf8foiZEiIM4FlCJTg92z36PDp7lSeWuXjtsd3YQcUfNrqXGEj9RJ0lVDZOB2qbcbApUAbI5uG4YQC30E3kzNBJ9m7jAhvhKViSF%25vq4tTyLRgLFYaxPbSrH1entn8wso3oiZrb1M4FnKrTg95zT6PDC7uSeWzyRtsd7oTcUfKM0XGEvhXJ0lgYxOB2PBqbApedlI5uscIQC3UX7kzNGmbm7j0hShKVBHF%25vqA8TyLR5iyYaxC4xrH1zgin8w7P3oiZxbEM4F1IJTg9wtn6PDGkbSeW0yItsdBY%25cUfAFcXGE5YrJbXqWBOIJzGfbApPdpI5ug6FQC3Ag1kzN5P6m7jCGohKVzYE%25vq7rcyLRKORYaxvJDrH1LPfn8wuOcoiZ3L0M4FgIJTg9Pg26PDe7oSeWsKUtsdUv%25cUfG8fXGE0iRJ0lBIxOB2AMqbA4wHEcmqN1IwCu0s35pnIu2fzfXRXPq0Agjeq89i3mtHBr&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=880&crop=" alt="GLC Coupé">
+                    <figcaption>
+                        <strong> GLC Coupé</strong><br>
+                         Versões a partir de:<br>
+                        <strong>  R$ 529.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="modelo">
+                <figure>
+                    <img src="https://media.oneweb.mercedes-benz.com/images/dynamic/europe/BR/254647/805_055/iris.png?q=COSY-EU-100-1713d0VXqaSgqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtGyjtsd1JpcUfwFuXGEZT3J0l34JOB2Ng1bApjkyI5uVmJQC3qhQkzNRtbm7jx2vhKV1bW%25vqwylyLRZimYaxF4JrH1dJZn8wf8foiZE5pM4FlCfTg92t36PDp%25bSeWuyjtsd3ZVcUfgUcXGEPamJ0leDlOB2sS1bApUIwI5uLoxQC3aMrkzNHzxm7j8cohKVi%25M%25vq4ylyLRhcVYax%255hrH1ymdn8w0AnoiZB5pM4FAC2Tg95hV6PDCroSeWzQStsd8hVcUfircXGE49dJ0lg6JOB2PS5bApeIXI5usQMQC3Uv1kzNGLnm7j0amhKVBHV%25vqA8ayLR5i2YaxVXWrH1qJtn8wRTyoiZebXM4FsmJTg9Uhk6PDG16SeW0h%25tXSNFUcJtAezXGEi9EJ0l8o1OB2G8qbAp0ioI5uBeYQC3AhWkzN5%256m7jCcjhKVz89%25vqEtTyLRlzFYaxHXSrH18Hdn8wiAyoiZ45gM4FgCQTg9Pv96PDeLNSeWsXjtsdUY3cUaqKDTb32VXq0EeDlGf%25XEd9B96N683eUHpi3v1LlbMKsh&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=880&crop=" alt="GLC">
+                    <figcaption>
+                        <strong> GLC</strong><br>
+                         Versões a partir de:<br>
+                        <strong>  R$ 514.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="modelo">
+                <figure>
+                    <img src="https://media.oneweb.mercedes-benz.com/images/dynamic/europe/BR/167133/805_055/iris.png?q=COSY-EU-100-1713d0VXq0WFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtGyjtsd2HtcUfp8qXGEubSJ0l3otOB2NW5bApjtwI5uG5IQC30EQkzNBm6m7j86ZhKViSM%25vq4J9yLRg32YaxPrSrH1enun8wsoWoiZrbtM4FnKrTg95zT6PDC7uSeWHmjtsd8s3cUfiO0XGE4bwJ0lg6JOB2PS5bApeIoI5usKxQC3UvWkzNpTnm7jaSthym9uv%25Yh87tyLRAnHYaxB0drH1LHun8waAfoiZHqZM4FgIJTg9PQk6PDePoSeWsKMtsdUcTcUaqKDTb32VXqa8L0Jdf%25XEd9B96N683eUHpi3v1LlbMKsh&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=880&crop=" alt="GLE">
+                    <figcaption>
+                        <strong> GLE</strong><br>
+                         Versões a partir de:<br>
+                        <strong>  R$ 744.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="modelo">
+                <figure>
+                    <img src="https://media.oneweb.mercedes-benz.com/images/dynamic/europe/BR/192382/805/iris.png?q=COSY-EU-100-1713d0VXqrWFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtlaStsd2oVcUfC%25kXGEzG3J0l7IJOB2KW1bApvIlI5u841QC3UMFkzNGzwm7j0OmhKVBHM%25vqNrkyLRic2Yax4JOroYfV8nMrPaIoiZ7%25EM4FzR0Tg9j0m6PDecNSeWsyutsLV79MOuljcVLXuidFdhcfWF0FT3THuPsa28uKxvEOo7em&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=880&crop=" alt="AMG GT Coupé">
+                    <figcaption>
+                        <strong>Mercedes-AMG GT Coupé</strong><br>
+                         Versões a partir de:<br>
+                        <strong>  R$ 1.697.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="modelo">
+                <figure>
+                    <img src="https://media.oneweb.mercedes-benz.com/images/dynamic/europe/BR/223182/805_055/iris.png?q=COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtGyjtsd2vtcUfp8cXGEuiBJ0l3IrOB2NS1bApjtCI5uVQJQC3qvQkzNwTbm7jZ6vhKVFKN%25vq9UTyLRDGfYaxWbSrH1KJtn8wvOyoiZLioM4FaKrTg9Hve6PD8LFSeWiXStsd4JxcUfgrkXGEzymJ0l70NOB2KW%25bApvIXI5uLQDQC3bkOkzN4PKm7jgeFhKVPbQ%25vqeIDyLRsYWYaxCXErH1zHdn8w7VxoiZK%25ZM4FvywTg9L6O6PDaSoSeWHtWtsd8c%25cUfiAkXGE45BJ0ldYAOB2frFbApEkXI5uKMTQmIwlzkhQL5Jm7jGOmhKVUp4%25vq7UTyLRlgLYaxHaJrH18Bin8wiz2oiZ4M1M4zuA1YtEWpTuPbpPFxFIT9ZxexrlrKE847dvE5jCDtyAib&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=610&crop= " alt="AMG GT Coupé">
+                    <figcaption>
+                        <strong>   Classe S Sedan Longo
+                        Híbrido</strong><br>
+                        <br>
+                        Versões a partir de:<br>
+                        <strong>     R$ 1.639.900,00      </strong>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="modelo">
+                <figure>
+                    <img src="https://assets.oneweb.mercedes-benz.com/iris/iris.png?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtGyWtsd2vtcUfp8cXGEuiRJ0l3IrOB2NzObApRAlI5ux4uQC31SrkzNwL6m7jA6ohKV5Kh%25vqCBlyLRznfYaxPXSrH1eHDn8wsz2oiZUMXM4FGTjTg906k6PDBmbSeWzaMtsd7oTcUfKMjXGEvhEJ0lgYlOB2PBqbApetXI5usc2QC3UkOkzNGm6m7j0aohKVHXM%25vq8cXyr%25kWfDYQJ0lCrnOIJRdAbQO70tI5uecIQC3PEHkzN5Pnm7jC2ZhKVzcZ%25vq7ptyLRlgeYaxH08rH18Mun8wiQfoiZ4M1M4zuA1YtEWpTuP6CPN8FIT9ZxeedNtjD%259j6hVNpLpIZIGwC7Ux0wPfejr9j=&imgt=P27&bkgnd=9&pov=BE040&uni=m&width=610&crop=" alt="AMG GT 4 Portas">
+                    <figcaption>
+                        <strong> EQS Sedan
+                            Elétrico</strong><br>
+                        
+                             Versões a partir de:<br>
+                        <strong>        R$ 1.457.900,00</strong>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
