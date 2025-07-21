@@ -1,0 +1,174 @@
+<html>
+    <head>
+        <title>interfce</title>
+        <style>
+             body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .cabeca {
+            padding: 20px;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+
+          .cabeca img {
+            width: 80px;
+            height: 80px;
+         
+
+          }
+          .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #111;
+            gap: 40px;
+            padding: 15px 0;
+        }
+
+        .menu-itens {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .menu-itens:hover {
+            color: #a50e0e;
+            text-decoration: underline;
+        }
+
+        .corpo {
+            background-color: #111;
+            padding: 40px 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 1500px;
+            box-shadow: 0 4px 10px rgba(163, 7, 7, 0.829);
+        }
+
+        .corpo h2 {
+          
+            margin-bottom: 20px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: xx-large;
+            width: 75%; 
+            
+        }
+
+        .modelos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            
+        }
+
+        .modelo {
+            display: inline-block;
+            position: relative;
+            border-radius: 10px;
+            width: 380px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .modelo:hover {
+            transform: scale(1.03);
+            
+        }
+
+        .modelo img {
+            width: 380px;
+            height: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 0, 0, 0.829);
+        }
+
+        .modelo p{
+
+            position: absolute;
+            top: 165px;
+            right: 21px;
+            font-size: 15px;
+            color: white;
+            
+
+            
+        }
+        .modelo figcaption {
+            padding: 15px;
+            font-size: 16px;
+            color: #ffffff;
+            position: absolute;
+            bottom: 250px;
+            left: 170px;
+            width: 30%; 
+            
+        }
+        a{
+            color: #a50e0e;
+        }
+        </style>
+
+    </head>
+    <body>
+         
+                <div class="cabeca"> 
+        <div class="cabeca">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-sQnA2_jrHL_RunZWN9Axx8LM4s2pjcLsqA&s" alt="Logotipo Mercedes-Benz">
+    </div>
+
+    <div class="menu">
+        <div class="menu-itens"><a href="modelo.html"> Modelos</a></div>
+        <div class="menu-itens"><a href="serviço.html">Serviço</a></div>
+        <div class="menu-itens"><a href="marca.html">Marca</a></div>
+
+    </div>
+
+    <div class="corpo">
+        <h2>Luxo, esportividade e potência perfeitamente combinados: <br> Descubra os modelos Mercedes-Benz mais recentes.</h2>
+        <div class="modelos">
+
+            <div class="modelo">
+                <figure>
+                    <img src="https://www2.mercedes-benz.com.br/content/dam/brazil/passengercars/models/suv/g-class/g-63/g-class-amg-teaser-1080-1920.png/1740089549700.jpg?im=Crop,rect=(0,0,1080,1920);Resize=(1200,2133)" alt="CLA Coupé">
+                    <figcaption> 
+                        <strong> <p> Mercedes-AMG G 63</p>
+                       </strong>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="modelo">
+                <figure>
+                    <img src="https://www2.mercedes-benz.com.br/content/dam/brazil/passengercars/models/sedan/eqs/eqs_sedan-teaser-1920x3413.png/1740089550050.jpg?im=Crop,rect=(0,0,1920,3413);Resize=(1200,2133)" alt="AMG GT Coupé">
+                    <figcaption>
+                    <strong> <p>Mercedes-AMG EQS 53 4MATIC+</p></strong>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="modelo">
+                <figure>
+                    <img src="https://www2.mercedes-benz.com.br/content/dam/brazil/passengercars/models/coupe/gle/c167/gle-coupe-amg-c167-teaser-1080-1920.jpg/1740089549999.jpg?im=Crop,rect=(0,0,1080,1920);Resize=(1200,2133)" alt="AMG GT 4 Portas">
+                    <figcaption> 
+
+
+                        <strong>
+                          <p> Mercedes-AMG GLE 63 4MATIC+ Coupé</p>
+                        </strong>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
